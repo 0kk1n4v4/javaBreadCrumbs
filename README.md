@@ -25,3 +25,15 @@ double[] vals = new double[20];
 
 Доп инфа по массивам и алгоритмам слияния:
 https://javarush.ru/groups/posts/massivy-java
+
+
+String[] array = {"Привет", "Как", "Дела"};
+String str = Arrays.toString(array);
+Переменная str будет содержать строковое значение:
+"[Привет, Как, Дела]"
+
+
+int[][][] array = { {{1, 2, 3}, {1}}, {{}} };
+String str = Arrays.deepToString(array);
+Переменная str будет содержать строковое значение:
+"[[[1, 2, 3], [1]], [[]]]"
